@@ -1,0 +1,21 @@
+input-view{
+  match: input
+  message {
+    template ("What would you like reapeated?")
+  }
+  render {
+    form {
+      on-submit{
+        goal: input
+        value: viv.core.FormElement(inputvalue)
+      }
+      elements{
+        text-input{
+          id   (inputvalue)
+          type (input)
+          label(input)
+        }
+      }
+    }
+  }
+}

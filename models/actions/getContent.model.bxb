@@ -1,0 +1,11 @@
+action (getContent) {
+  type (Search)
+  description (repeat what you say)
+  collect {
+    input (input) {
+      type (input)
+      min (Required) max (One)
+    }
+  }
+  output (input)
+}

@@ -1,0 +1,6 @@
+result-view{
+	match: input (this)
+  message {
+    template ("[you said, \"#{value(this)}\".]")
+  }
+}

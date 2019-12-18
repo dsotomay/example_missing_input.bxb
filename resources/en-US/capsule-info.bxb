@@ -1,0 +1,10 @@
+capsule-info {
+  display-name (copy cat)
+  developer-name (The cat that copies)
+  icon-asset (/images/question.png)
+  description ("This Capsule will repeat something if you ask it to!")
+  dispatch-name (the cat says)
+  search-keywords{
+    keyword (name)
+  }
+}
